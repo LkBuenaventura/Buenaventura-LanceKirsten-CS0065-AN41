@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Hot, humid, rainy evening",
+    "problem": {
+      "weather": {
+        "temperature": 34.0,
+        "humidity": 90.0,
+        "is_raining": true
+      },
+      "occupancy": {
+        "is_occupied": true
+      },
+      "lighting": {
+        "is_dark": true
+      },
+      "preferences": {
+        "preferred_temperature": 26.0,
+        "prefer_natural_light": true
+      }
+    },
+    "solution": "Turn on the aircon, close windows, and turn on the lights."
+  },
+  {
+    "name": "Comfortable, dry daytime",
+    "problem": {
+      "weather": {
+        "temperature": 25.0,
+        "humidity": 50.0,
+        "is_raining": false
+      },
+      "occupancy": {
+        "is_occupied": true
+      },
+      "lighting": {
+        "is_dark": false
+      },
+      "preferences": {
+        "preferred_temperature": 26.0,
+        "prefer_natural_light": true
+      }
+    },
+    "solution": "Keep cooling off and use natural light."
+  },
+  {
+    "name": "Empty room on a rainy evening",
+    "problem": {
+      "weather": {
+        "temperature": 27.0,
+        "humidity": 75.0,
+        "is_raining": true
+      },
+      "occupancy": {
+        "is_occupied": false
+      },
+      "lighting": {
+        "is_dark": true
+      },
+      "preferences": {
+        "preferred_temperature": 26.0,
+        "prefer_natural_light": true
+      }
+    },
+    "solution": "Close windows; keep lights and cooling off in the empty room."
+  },
+  {
+    "name": "Retained case 4",
+    "problem": {
+      "weather": {
+        "temperature": 22.0,
+        "humidity": 40.0,
+        "is_raining": true
+      },
+      "occupancy": {
+        "is_occupied": false
+      },
+      "lighting": {
+        "is_dark": false
+      },
+      "preferences": {
+        "preferred_temperature": 24.0,
+        "prefer_natural_light": true
+      }
+    },
+    "solution": "Close windows but keep cooling on to keep the room cool."
+  }
+]
