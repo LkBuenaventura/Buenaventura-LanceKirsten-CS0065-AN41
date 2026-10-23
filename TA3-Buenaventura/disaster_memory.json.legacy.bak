@@ -1,0 +1,107 @@
+[
+    {
+        "id": "Local Memory - Typhoon Odette (2021)",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 5,
+            "location": "Urban"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation",
+            "shelter_capacity": 5000,
+            "resource_allocation": [
+                "Food",
+                "Water",
+                "Rescue Boats"
+            ]
+        }
+    },
+    {
+        "id": "Local Memory - Typhoon in Luzon (4.0)",
+        "historical_context": "A severe threat Typhoon occurred in Luzon. The community prepared using the tailored strategy, deploying specific resources for the local hazard (None).",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 4.0,
+            "location": "Luzon",
+            "category": "Severe Threat",
+            "proximity_hazard": "None"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation",
+            "shelter_capacity": 5000,
+            "resource_allocation": {
+                "Survival": [],
+                "Medical": [],
+                "Logistics": []
+            },
+            "friendly_tips": [
+                "\ud83c\udf92 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "\ud83d\udcfb Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "\ud83e\udd1d Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "\ud83e\ude9f Secure loose outdoor items (like potted plants or chairs) that could become flying debris in high winds.",
+                "\ud83d\udd26 Avoid using candles for light if the power goes out to prevent fire hazards; stick to flashlights."
+            ]
+        }
+    },
+    {
+        "id": "Local Memory - Typhoon in Luzon (3.0)",
+        "historical_context": "A high danger Typhoon occurred in Luzon. The community prepared using the tailored strategy, deploying specific resources for the local hazard (Coastline).",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 3.0,
+            "location": "Luzon",
+            "category": "High Danger",
+            "proximity_hazard": "Coastline"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation\n   \ud83c\udf0a [COASTAL PROTOCOL]: Enforce a 5-kilometer no-entry zone from the shoreline.",
+            "shelter_capacity": 5000,
+            "resource_allocation": {
+                "Survival": [],
+                "Medical": [],
+                "Logistics": [
+                    "Coast Guard Marine Vessels"
+                ]
+            },
+            "friendly_tips": [
+                "\ud83c\udf92 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "\ud83d\udcfb Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "\ud83e\udd1d Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "\ud83e\ude9f Secure loose outdoor items (like potted plants or chairs) that could become flying debris in high winds.",
+                "\ud83d\udd26 Avoid using candles for light if the power goes out to prevent fire hazards; stick to flashlights.",
+                "\ud83c\udf0a Since you are near the coast, find an evacuation center that is inland and at least 3 stories high to avoid storm surges or tsunamis."
+            ]
+        }
+    },
+    {
+        "id": "Local Memory - Typhoon in Luzon (4.0)",
+        "historical_context": "A severe threat Typhoon occurred in Luzon. The community prepared using the tailored strategy, deploying specific resources for the local hazard (River).",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 4.0,
+            "location": "Luzon",
+            "category": "Severe Threat",
+            "proximity_hazard": "River"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation\n   \ud83c\udf0a [RIVERINE PROTOCOL]: Monitor upstream water levels. Evacuate communities within 1km of riverbanks.",
+            "shelter_capacity": 5000,
+            "resource_allocation": {
+                "Survival": [],
+                "Medical": [],
+                "Logistics": [
+                    "Motorized Rubber Boats",
+                    "Sandbags"
+                ]
+            },
+            "friendly_tips": [
+                "\ud83c\udf92 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "\ud83d\udcfb Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "\ud83e\udd1d Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "\ud83e\ude9f Secure loose outdoor items (like potted plants or chairs) that could become flying debris in high winds.",
+                "\ud83d\udd26 Avoid using candles for light if the power goes out to prevent fire hazards; stick to flashlights.",
+                "\ud83c\udf0a Avoid crossing river bridges. Flash floods can wash bridges away in seconds without warning."
+            ]
+        }
+    }
+]

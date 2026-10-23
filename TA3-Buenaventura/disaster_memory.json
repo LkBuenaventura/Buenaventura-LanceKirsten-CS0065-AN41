@@ -1,0 +1,274 @@
+[
+    {
+        "id": "Local Memory - Typhoon Odette (2021)",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 5,
+            "location": "Urban",
+            "proximity_hazard": "None"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation",
+            "shelter_capacity": 5000,
+            "resource_allocation": {
+                "Survival": [
+                    "Food",
+                    "Water"
+                ],
+                "Medical": [],
+                "Logistics": [
+                    "Rescue Boats"
+                ]
+            },
+            "shelter_description": "Facility details were not recorded."
+        }
+    },
+    {
+        "id": "Local Memory - Typhoon in Luzon (4.0)",
+        "historical_context": "A severe threat Typhoon occurred in Luzon. The community prepared using the tailored strategy, deploying specific resources for the local hazard (None).",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 4.0,
+            "location": "Luzon",
+            "category": "Severe Threat",
+            "proximity_hazard": "None"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation",
+            "shelter_capacity": 5000,
+            "resource_allocation": {
+                "Survival": [],
+                "Medical": [],
+                "Logistics": []
+            },
+            "friendly_tips": [
+                "🎒 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "📻 Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "🤝 Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "🪟 Secure loose outdoor items (like potted plants or chairs) that could become flying debris in high winds.",
+                "🔦 Avoid using candles for light if the power goes out to prevent fire hazards; stick to flashlights."
+            ],
+            "shelter_description": "Facility details were not recorded."
+        }
+    },
+    {
+        "id": "Local Memory - Typhoon in Luzon (3.0)",
+        "historical_context": "A high danger Typhoon occurred in Luzon. The community prepared using the tailored strategy, deploying specific resources for the local hazard (Coastline).",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 3.0,
+            "location": "Luzon",
+            "category": "High Danger",
+            "proximity_hazard": "Coastline"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation\n   🌊 [COASTAL PROTOCOL]: Enforce a 5-kilometer no-entry zone from the shoreline.",
+            "shelter_capacity": 5000,
+            "resource_allocation": {
+                "Survival": [],
+                "Medical": [],
+                "Logistics": [
+                    "Coast Guard Marine Vessels"
+                ]
+            },
+            "friendly_tips": [
+                "🎒 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "📻 Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "🤝 Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "🪟 Secure loose outdoor items (like potted plants or chairs) that could become flying debris in high winds.",
+                "🔦 Avoid using candles for light if the power goes out to prevent fire hazards; stick to flashlights.",
+                "🌊 Since you are near the coast, find an evacuation center that is inland and at least 3 stories high to avoid storm surges or tsunamis."
+            ],
+            "shelter_description": "Facility details were not recorded."
+        }
+    },
+    {
+        "id": "Local Memory - Typhoon in Luzon (4.0)",
+        "historical_context": "A severe threat Typhoon occurred in Luzon. The community prepared using the tailored strategy, deploying specific resources for the local hazard (River).",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 4.0,
+            "location": "Luzon",
+            "category": "Severe Threat",
+            "proximity_hazard": "River"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation\n   🌊 [RIVERINE PROTOCOL]: Monitor upstream water levels. Evacuate communities within 1km of riverbanks.",
+            "shelter_capacity": 5000,
+            "resource_allocation": {
+                "Survival": [],
+                "Medical": [],
+                "Logistics": [
+                    "Motorized Rubber Boats",
+                    "Sandbags"
+                ]
+            },
+            "friendly_tips": [
+                "🎒 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "📻 Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "🤝 Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "🪟 Secure loose outdoor items (like potted plants or chairs) that could become flying debris in high winds.",
+                "🔦 Avoid using candles for light if the power goes out to prevent fire hazards; stick to flashlights.",
+                "🌊 Avoid crossing river bridges. Flash floods can wash bridges away in seconds without warning."
+            ],
+            "shelter_description": "Facility details were not recorded."
+        }
+    },
+    {
+        "id": "Local Memory - Bohol Earthquake (2013)",
+        "historical_context": "A devastating Magnitude 7.2 earthquake struck Bohol, destroying centuries-old churches and triggering landslides that isolated mountain towns. Rescue efforts proved that open-field tent cities were necessary because people were terrified of aftershocks collapsing indoor shelters.",
+        "problem": {
+            "disaster_type": "Earthquake",
+            "intensity": 7.2,
+            "location": "Visayas",
+            "proximity_hazard": "Mountain"
+        },
+        "solution": {
+            "evacuation_strategy": "Immediate evacuation to open fields. Strictly cordon off heritage structures and masonry houses. Deploy air assets for isolated mountain barangays.",
+            "shelter_capacity": 20000,
+            "shelter_description": "Modular tent cities in open areas. Ensure deep-well water access.",
+            "resource_allocation": {
+                "Survival": [
+                    "Air-dropped MREs and Bottled Water",
+                    "10,000 Thermal Blankets"
+                ],
+                "Medical": [
+                    "Military Field Surgeons",
+                    "Crush-syndrome specialized trauma units",
+                    "Psychological support teams"
+                ],
+                "Logistics": [
+                    "Military Helicopters (Airlift)",
+                    "Heavy Payloaders to clear landslides",
+                    "Portable cell tower units (COWs)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "Local Memory - Metro Manila Monsoon Floods (2012)",
+        "historical_context": "Weeks of relentless monsoon rains submerged Metro Manila, paralyzing the capital. Many residents were trapped on their roofs for days. The response highlighted the critical need for early water-level warnings and massive deployments of rubber boats.",
+        "problem": {
+            "disaster_type": "Flood",
+            "intensity": 3.0,
+            "location": "Luzon",
+            "proximity_hazard": "River"
+        },
+        "solution": {
+            "evacuation_strategy": "Targeted evacuation of ground-floor residents in low-lying zones. Activate municipal water pumping stations.",
+            "shelter_capacity": 5000,
+            "shelter_description": "Elevated public schools and basketball courts. Ground floors must be kept clear.",
+            "resource_allocation": {
+                "Survival": [
+                    "50,000 Hot Meals via community kitchens",
+                    "Portable Water Filtration systems"
+                ],
+                "Medical": [
+                    "Leptospirosis Prophylaxis (Doxycycline)",
+                    "Tetanus shots",
+                    "First aid for lacerations"
+                ],
+                "Logistics": [
+                    "50 Rubber Rescue Boats (Outboard motors)",
+                    "Sandbag deployment trucks",
+                    "Water utility repair teams"
+                ]
+            }
+        }
+    },
+    {
+        "id": "Local Memory - Flood in Visayas (3.0)",
+        "historical_context": "Classroom scenario: high danger Flood in Visayas, near River. The user reviewed the proposed shelter capacity; actual disaster outcomes have not been recorded.",
+        "problem": {
+            "disaster_type": "Flood",
+            "intensity": 3.0,
+            "location": "Visayas",
+            "category": "High Danger",
+            "proximity_hazard": "River"
+        },
+        "solution": {
+            "evacuation_strategy": "Targeted evacuation of ground-floor residents in low-lying zones. Activate municipal water pumping stations.\n   🌊 [RIVERINE PROTOCOL]: Monitor upstream water levels. Evacuate communities within 1km of riverbanks.",
+            "shelter_capacity": 6500,
+            "shelter_description": "Elevated public schools and basketball courts. Ground floors must be kept clear.",
+            "resource_allocation": {
+                "Survival": [
+                    "50,000 Hot Meals via community kitchens",
+                    "Portable Water Filtration systems"
+                ],
+                "Medical": [
+                    "Leptospirosis Prophylaxis (Doxycycline)",
+                    "Tetanus shots",
+                    "First aid for lacerations"
+                ],
+                "Logistics": [
+                    "50 Rubber Rescue Boats (Outboard motors)",
+                    "Sandbag deployment trucks",
+                    "Water utility repair teams",
+                    "Motorized Rubber Boats",
+                    "Sandbags"
+                ]
+            },
+            "capacity_adaptation": {
+                "original_capacity": 5000,
+                "recommended_capacity": 5000,
+                "increase_percent": 0,
+                "rule": "Increase by 50% when intensity exceeds the past case by more than 1.0; round up."
+            },
+            "friendly_tips": [
+                "🎒 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "📻 Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "🤝 Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "🔌 Unplug all electrical appliances and move valuables to the second floor or higher ground.",
+                "🦠 Avoid wading through floodwaters! They can carry diseases like Leptospirosis or hide dangerous debris.",
+                "🌊 Avoid crossing river bridges. Flash floods can wash bridges away in seconds without warning."
+            ],
+            "capacity_review": {
+                "recommended_capacity": 5000,
+                "final_capacity": 6500,
+                "status": "revised"
+            }
+        }
+    },
+    {
+        "id": "Local Memory - Typhoon in Luzon (4.0)",
+        "historical_context": "Classroom scenario: severe threat Typhoon in Luzon, near Mountain. The user reviewed the proposed shelter capacity; actual disaster outcomes have not been recorded.",
+        "problem": {
+            "disaster_type": "Typhoon",
+            "intensity": 4.0,
+            "location": "Luzon",
+            "category": "Severe Threat",
+            "proximity_hazard": "Mountain"
+        },
+        "solution": {
+            "evacuation_strategy": "Mandatory Evacuation\n   ⛰️ [MOUNTAIN PROTOCOL]: Activate landslide early warning systems.",
+            "shelter_capacity": 12500,
+            "resource_allocation": {
+                "Survival": [],
+                "Medical": [],
+                "Logistics": [
+                    "Heavy Payloaders and Earth-movers (Clearing)"
+                ]
+            },
+            "friendly_tips": [
+                "🎒 Pack a 'Go-Bag' with your ID, important documents, medications, and enough food/water for 3 days.",
+                "📻 Keep your phone fully charged and have a battery-powered radio ready for local announcements.",
+                "🤝 Check on your neighbors, especially the elderly or those with disabilities, to ensure they have a plan.",
+                "🪟 Secure loose outdoor items (like potted plants or chairs) that could become flying debris in high winds.",
+                "🔦 Avoid using candles for light if the power goes out to prevent fire hazards; stick to flashlights.",
+                "⛰️ Be alert for unusual sounds like trees cracking or boulders knocking together, which might indicate an impending landslide."
+            ],
+            "shelter_description": "Facility details were not recorded.",
+            "capacity_adaptation": {
+                "original_capacity": 5000,
+                "recommended_capacity": 5000,
+                "increase_percent": 0,
+                "rule": "Increase by 50% when intensity exceeds the past case by more than 1.0; round up."
+            },
+            "capacity_review": {
+                "recommended_capacity": 5000,
+                "final_capacity": 12500,
+                "status": "revised"
+            }
+        }
+    }
+]
